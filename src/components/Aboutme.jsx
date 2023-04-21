@@ -29,7 +29,7 @@ const Aboutme = () => {
                                    <button onClick={skill} className='btn-skill'></button>
                                    Desarrolladora Full Stack,
                                 </span>
-                                
+
                                  {' '} {' '}
                                 La programación es uno de los aspectos de mi vida que más me apasiona, me gusta porque es algo que me permite aprender algo nuevo cada día, otra cosa muy importante es que la programación me ha ayudado a aprender lo importante que es el trabajo en equipo y todo el aprendizaje que puede traer consigo, me considero una persona que puede llegar a ser muy perfeccionista y siempre trato de aprender algo nuevo y así poder crecer tanto en lo profesional como en lo personal
                             </p>

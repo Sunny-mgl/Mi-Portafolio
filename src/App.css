@@ -79,7 +79,7 @@ section[id] {
 
 .text {
   display: inline-block;
-  padding: rem 0 0 0;
+
   display: grid;
   justify-content: center;
 }
@@ -91,7 +91,7 @@ section[id] {
 }
 
 .bienvenidos-name {
-  padding: 3rem 0 0 0;
+  padding: 4rem 0 0 0;
   text-align: center;
   margin-bottom: 2rem;
   color: rgb(10, 156, 200);
@@ -185,7 +185,7 @@ section[id] {
   text-transform: uppercase;
   letter-spacing: .3rem;
   font-weight: 700;
-  font-family:serif;
+  font-family: serif;
   /*hace mas negrita*/
   text-shadow: .1rem .1rem .1rem #fbff11;
   transition: .2s ease;
@@ -194,7 +194,7 @@ section[id] {
 .btn::after {
   content: 'About Me';
   position: absolute;
-  font-family:serif;
+  font-family: serif;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
@@ -235,7 +235,7 @@ section[id] {
 .aboutme-container {
   background: linear-gradient(to top right, #845EC2, #872cd2, #0081CF, #2faeb8, #13b4a7, #008F7A);
   width: 100%;
-  height: 88vh;
+  height: 140vh;
   overflow: hidden;
 
 }
@@ -247,18 +247,39 @@ section[id] {
 .aboutme2-container {
   background-color: rgba(67, 68, 68, 0.219);
   width: 100%;
-  height: 78vh;
+  height: 130vh;
   border-radius: 10px;
-  margin-top: 12rem;
+
+}
+
+.info {
+  padding: 2rem;
+}
+
+.aboutMe {
+  padding: 1rem;
+}
+
+.foto {
+  width: 90%;
+  border-radius: 10px;
+  transition: all .6s ease-in-out;
+}
+
+.foto:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  box-shadow: rgba(197, 101, 176, 0.56) 0px 22px 70px 4px;
 }
 
 .aboutmeh1 {
   color: #f3dbec;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   display: grid;
   grid-template-columns: 20% 100%;
   align-items: center;
-  margin-right: 2rem;
+  margin-right: -3rem;
+  margin-left: -6rem;
 }
 
 .btn-skill {
@@ -266,24 +287,25 @@ section[id] {
   position: relative;
   border: none;
   background: none;
-  margin-right: 5rem;
+  margin-left: 7rem;
+  margin-bottom: 3rem;
 }
 
 .btn-skill::before {
   content: 'Soy';
   position: absolute;
   font-size: 4vw;
-  font-family:serif;
+  font-family: serif;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* estas tres ultimas lineas de texto me ayuda a centrar */
-  
+
+
   color: rgb(234, 245, 86);
   text-transform: uppercase;
   letter-spacing: .3rem;
   font-weight: 700;
-  /*hace mas negrita*/
+
   text-shadow: .1rem .1rem .1rem #ff119c;
   transition: .2s ease;
 }
@@ -292,16 +314,16 @@ section[id] {
   content: 'Skills';
   position: absolute;
   font-size: 3vw;
-  font-family:serif;
+  font-family: serif;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  /* estas tres ultimas lineas de texto me ayuda a centrar */
+
   color: rgb(245, 92, 207);
   text-transform: uppercase;
   letter-spacing: .3rem;
   font-weight: 700;
-  /*hace mas negrita*/
+
   text-shadow: .1rem .1rem .1rem #5ba7e6;
   transition: .2s ease;
   opacity: 0;
@@ -325,44 +347,6 @@ section[id] {
 .btn-skill:hover::after {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-}
-
-.info {
-  padding: 4rem;
-  width: 50%;
-  margin-top: -12rem;
-  display: grid;
-  grid-template-columns: 100% 100%;
-  align-items: center;
-}
-
-.aboutp-container {
-  padding: 1rem;
-  /* background: #d1bbbb; */
-  padding: 1rem 0 0 3rem;
-  border-radius: 10px;
-}
-
-.aboutMe {
-  color: #e4c9dc;
-  font-size: 1.2rem;
-}
-
-.foto-about {
-  margin-left: 13rem;
-
-}
-
-.foto {
-  width: 90%;
-  border-radius: 10px;
-  transition: all .6s ease-in-out;
-}
-
-.foto:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-  box-shadow: rgba(197, 101, 176, 0.56) 0px 22px 70px 4px;
 }
 
 /* ---------------------SKILLS----------------------- */
@@ -414,7 +398,7 @@ section[id] {
 
 .contact-btn::before {
   content: 'Skills';
-  font-family:serif;
+  font-family: serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -430,7 +414,7 @@ section[id] {
 
 .contact-btn::after {
   content: 'Projects';
-  font-family:serif;
+  font-family: serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -609,50 +593,69 @@ section[id] {
 }
 
 .project2-container {
-  background-color: rgba(67, 68, 68, 0.219);
+  background-color: rgba(70, 95, 95, 0.219);
   width: 100%;
-  height: 78vh;
+  height: 79vh;
   border-radius: 10px;
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
- padding: 1rem;
- justify-content: center;
+  padding: 2rem;
 }
 
 
-.card-imges{
+
+.container-scroll {
+  background-color: #DCB0FF;
+  width: 90%;
+  margin: auto;
+  height: 65vh;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container-responsive {
+  display: grid;
+  flex-direction: row;
+
+}
+
+
+.card-imges {
   width: 40%;
   height: 30vh;
 }
 
-.card-project{
-   padding: 1.5rem;
+.card-project {
+  padding: 1rem;
+  margin-top: 1rem;
 }
+
 /* 
 .container-card{
  
 } */
 
-.container-card a{
+.container-card a {
   text-decoration: none;
   display: inline-block;
 }
 
-.container-card:hover figure{
-   -webkit-transform: perspective(600px) rotateY(180deg);
-   -ms-transform: perspective(600px) rotateY(180deg);
-   -o-transform: perspective(600px) rotateY(180deg);
-   transform: perspective(600px) rotateY(180deg);
+.container-card:hover figure {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  -ms-transform: perspective(600px) rotateY(180deg);
+  -o-transform: perspective(600px) rotateY(180deg);
+  transform: perspective(600px) rotateY(180deg);
 
 }
 
-.container-card:hover figure img{
- filter: blur(1px);
+.container-card:hover figure img {
+  filter: blur(1px);
 }
 
-figure{
-  width: 300px;
-  height: 180px;
+figure {
+  /* width: 300px;
+  height: 180px; */
   margin: 0;
   position: relative;
   transition: all ease .5s;
@@ -660,33 +663,33 @@ figure{
   transform: perspective(600px) rotateY(0deg);
 }
 
-.back p{
- font-weight: 500;
- color: #690b4d;
-}
-
-.back h1{
+.back p {
+  font-weight: 500;
   color: #690b4d;
 }
 
-.back hr{
+.back h1 {
+  color: #690b4d;
+}
+
+.back hr {
   border: .5px solid #331a2c;
 }
 
 figure .card-imges,
-figure .back{
+figure .back {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   transition: all ease .5s;
 }
 
-figure .card-imges{
+figure .card-imges {
   display: block;
   /* backface-visibility: hidden; */
 }
 
-figure .back{
+figure .back {
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -698,15 +701,23 @@ figure .back{
   background-color: #ecbbbbcb;
 }
 
-figure  img {
+figure img {
   border-radius: 10px;
 }
 
+/* 
 .titleproject{
   position: absolute;
    margin-top: 9.5rem;
    padding: 6rem;
+} */
+
+.titleproject {
+  position: absolute;
+  margin-top: -4rem;
+  padding: 6rem;
 }
+
 /* 
 .h1titleproject{
   position: absolute;
@@ -727,7 +738,7 @@ figure  img {
 .h1titleproject::before {
   content: 'Projects';
   position: absolute;
-  font-family:serif;
+  font-family: serif;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -743,7 +754,7 @@ figure  img {
 .h1titleproject::after {
   content: 'Contact Me';
   position: absolute;
-  font-family:serif;
+  font-family: serif;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
@@ -819,27 +830,138 @@ figure  img {
   }
 }
 
+/* -----------Projects---------------- */
+
+@media screen and (min-width: 992px){
+  figure {
+    width: 280px;
+    height: 160px;
+  }
+
+  .container-scroll {
+    background: none;
+    overflow: hidden;
+  }
+  
+  .container-responsive{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    margin-right: -30rem;
+    margin-top: -4rem;
+    margin-left: 3rem;
+  }
+
+  .titleproject{
+    margin-top: 9.5rem;
+  }
+  
+}
+
+
+/* -----------About Me---------------- */
+
+@media screen and (min-width: 412px) {
+  .foto {
+    width: 40%;
+
+  }
+
+  .foto-about {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 712px) {
+  .foto {
+    width: 40%;
+
+  }
+
+  .foto-about {
+    text-align: center;
+  }
+
+  .btn-skill {
+    margin-left: -3rem;
+    margin-top: 4rem;
+  }
+
+  .aboutmeh1 {
+    margin-left: -4rem;
+    font-size: 2.5rem;
+  }
+
+  .info {
+    padding: 6rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .info {
+
+    display: grid;
+    grid-template-columns: 40% 100%;
+  }
+
+  .foto {
+    width: 30%;
+    margin-top: -3rem;
+    margin-right: 15rem;
+  }
+
+  .aboutme-container {
+    width: 100%;
+    height: 88vh;
+  }
+
+  .aboutme2-container {
+    width: 100%;
+    height: 78vh;
+  }
+
+  .btn-skill {
+    margin-left: -5rem;
+
+  }
+
+  .aboutmeh1 {
+    margin-left: -2rem;
+    font-size: 2.9rem;
+    margin-top: -5.6rem;
+  }
+
+  .aboutMe {
+    font-size: 1.4rem;
+    width: 35rem;
+  }
+
+}
+
+/* ---------------SKILL------------------------ */
+
 
 @media screen and (max-width: 700px) {
-   .skill{
+  .skill {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 65%;
-   }  
-   .icons{
+  }
+
+  .icons {
     display: grid;
     flex-direction: row;
     justify-content: center;
     padding: 2rem 2rem 2rem 3rem;
-   }  
-   .img-react {
+  }
+
+  .img-react {
     background-color: #f1b4e085;
     width: 15rem;
     border-radius: 12px;
     margin-right: 20px;
     margin-bottom: 1rem;
   }
-  
+
   .img-node {
     background-color: #f1b4e085;
     width: 15rem;
@@ -847,7 +969,7 @@ figure  img {
     margin-right: 20px;
     margin-bottom: 1rem;
   }
-  
+
   .img-js {
     background-color: #f1b4e085;
     width: 15rem;
@@ -871,27 +993,30 @@ figure  img {
     margin-right: 20px;
     margin-bottom: 1rem;
   }
+
 }
 
 @media screen and (max-width: 500px) {
-  .skill{
+  .skill {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 90%;
-   }  
-   .icons{
+  }
+
+  .icons {
     display: grid;
     flex-direction: row;
     justify-content: center;
-   }  
-   .img-react {
+  }
+
+  .img-react {
     background-color: #f1b4e085;
     width: 15rem;
     border-radius: 12px;
     margin-right: 20px;
     margin-bottom: 1rem;
   }
-  
+
   .img-node {
     background-color: #f1b4e085;
     width: 15rem;
@@ -899,7 +1024,7 @@ figure  img {
     margin-right: 20px;
     margin-bottom: 1rem;
   }
-  
+
   .img-js {
     background-color: #f1b4e085;
     width: 15rem;
@@ -922,5 +1047,6 @@ figure  img {
     border-radius: 12px;
     margin-right: 20px;
     margin-bottom: 1rem;
-  } 
+  }
+
 }
