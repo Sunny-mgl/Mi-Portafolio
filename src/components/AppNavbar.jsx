@@ -3,11 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import miLogo2 from '../assets/miLogo2.png'
 
 const AppNavbar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className='home'>
             <Container >
+            <Navbar.Brand > <img src={miLogo2} className='logo' alt="" /></Navbar.Brand>
                 <Navbar.Brand href="/" ><h1 className='home-name'>Home</h1> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

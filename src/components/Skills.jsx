@@ -19,9 +19,9 @@ const Skills = () => {
                     <div className='skillh1'>
                         <h1 className='myskillh1'> <button onClick={contsct} className='contact-btn'></button> </h1>
                     </div>
-                    <article className='skill'>
+                    <article data-aos="flip-left" className='skill'>
                         {/* <img src={back} className='new' alt="" /> */}
-                        <div className='icons'>
+                        <div  className='icons'>
 
                             <div className='img-react'>
                                 <img src={reactImg} className='icons2' alt="" />

@@ -25,11 +25,11 @@ const Projects = () => {
                   
                         <div className='container-scroll'>
 
-                            <div className='container-responsive'>
+                            <div data-aos="flip-left"  className='container-responsive'>
 
                                 <div className='card-project'>
                                     <div className='container-card'>
-                                        <a href="#">
+                                        <a href="https://resilient-sawine-5bd33c.netlify.app/"  target='_blank'>
                                             <figure>
                                                 <img src={ecommerce} className='card-imges' alt="" />
                                                 <figcaption className='back'>
@@ -44,7 +44,7 @@ const Projects = () => {
 
                                 <div className='card-project'>
                                     <div className='container-card'>
-                                        <a href="#">
+                                        <a href="https://shimmering-salmiakki-66b7cb.netlify.app/" target='_blank'>
                                             <figure>
                                                 <img src={weather} className='card-imges' alt="" />
                                                 <figcaption className='back'>
@@ -60,11 +60,11 @@ const Projects = () => {
 
                                 <div className='card-project'>
                                     <div className='container-card'>
-                                        <a href="#">
+                                        <a href="https://fascinating-froyo-266424.netlify.app/" target='_blank'>
                                             <figure>
                                                 <img src={frases} className='card-imges' alt="" />
                                                 <figcaption className='back'>
-                                                    <h1>Weather App</h1>
+                                                    <h1>Phrases</h1>
                                                     <hr />
                                                     <p>
                                                         Este proyecto fue uno de los primeros que desarrolle con React, consiste en que puedes ver diferentes frases y dependiendo de la frase puede cambiar el color
@@ -77,7 +77,7 @@ const Projects = () => {
 
                                 <div className='card-project'>
                                     <div className='container-card'>
-                                        <a href="#">
+                                        <a href="https://cool-melomakarona-fc2140.netlify.app/" target='_blank'>
                                             <figure>
                                                 <img src={wiki} className='card-imges' alt="" />
                                                 <figcaption className='back'>
@@ -94,7 +94,7 @@ const Projects = () => {
 
                                 <div className='card-project'>
                                     <div className='container-card'>
-                                        <a href="#">
+                                        <a href="https://bespoke-florentine-31ac07.netlify.app/" target='_blank'>
                                             <figure>
                                                 <img src={portafolio} className='card-imges' alt="" />
                                                 <figcaption className='back'>
@@ -111,7 +111,7 @@ const Projects = () => {
 
                                 <div className='card-project'>
                                     <div className='container-card'>
-                                        <a href="#">
+                                        <a href="https://lovely-kulfi-22499d.netlify.app/" target='_blank'>
                                             <figure>
                                                 <img src={poke} className='card-imges' alt="" />
                                                 <figcaption className='back'>

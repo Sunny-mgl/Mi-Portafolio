@@ -35,7 +35,7 @@ section[id] {
 /* ---------------------NAVBAR----------------------- */
 
 .home {
-  background: #f597e0;
+  background: #f597e196;
 }
 
 .home-name {
@@ -51,6 +51,11 @@ section[id] {
   display: block;
   margin: auto 0;
 
+}
+
+.logo{
+  width: 50px;
+  margin-left: -4rem;
 }
 
 /* ---------------------HOME--------------------------*/
@@ -258,6 +263,10 @@ section[id] {
 
 .aboutMe {
   padding: 1rem;
+}
+
+.foto-about{
+  margin-top: -1.5rem;
 }
 
 .foto {
