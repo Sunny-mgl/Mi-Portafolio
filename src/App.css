@@ -275,6 +275,18 @@ section[id] {
   transition: all .6s ease-in-out;
 }
 
+.info-about{
+  color: beige;
+}
+
+.container-infoabout{
+  margin: 1rem;
+}
+
+.info-about i{
+  color: rgb(121, 61, 101);
+}
+
 .foto:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -787,8 +799,7 @@ figure img {
   opacity: 1;
 }
 
-/* ---------------------CV--------------------------- */
-
+/* ---------------------CONTACT ME------------------- */
 .contact-container {
   background: linear-gradient(to bottom right, #FBF109, #FACCFF, #FFC5A6, #f2b2f7, #F98E72, #f0ab51, #BD5A41);
   width: 100%;
@@ -806,8 +817,7 @@ figure img {
   height: 78vh;
   border-radius: 10px;
 }
-
-/* ---------------------CONTACT ME------------------- */
+/* ---------------------CV--------------------------- */
 /* ---------------------FOOTER----------------------- */
 
 .wave {
@@ -936,12 +946,16 @@ figure img {
   .aboutmeh1 {
     margin-left: -2rem;
     font-size: 2.9rem;
-    margin-top: -5.6rem;
+    margin-top: -7rem;
   }
 
   .aboutMe {
     font-size: 1.4rem;
     width: 35rem;
+  }
+
+  .info-about{
+  
   }
 
 }
