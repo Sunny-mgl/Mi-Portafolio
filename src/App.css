@@ -825,7 +825,7 @@ figure img {
 .form h2{
   font-size: 1.5rem;
   position: absolute;
-  margin-top: -1.5rem;
+  margin-top: -3rem;
   display: grid;
   color: #51d2e9;
 }
@@ -1039,6 +1039,10 @@ textarea{
     display: block;
     margin: auto;
     margin-top: 2rem;
+  }
+
+  .form h2{
+    margin-top: -1.5rem;
   }
 
 }
