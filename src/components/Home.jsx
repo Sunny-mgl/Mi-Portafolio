@@ -16,10 +16,10 @@ const Home = () => {
                     </div>
                     <h1 className='bienvenidos-name'>
                         {/* <span className='bienvenidos-span'> HOLA! </span> */}
-                        Soy Sunny Martinez Giler
+                        I'm Sunny Martinez Giler
                     </h1>
                     <div className='text'>
-                        <h1 className='bienvenidos'>  Bienvenidos a mi Portafolio</h1>
+                        <h1 className='bienvenidos'> Welcome</h1>
                     </div>
 
                     <div className='social'>

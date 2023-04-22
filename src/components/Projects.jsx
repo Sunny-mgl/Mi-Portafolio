@@ -18,24 +18,26 @@ const Projects = () => {
             <div className='hey4'>
                 <div className='titleproject' >
                     <h1 className='h1titleproject' onClick={contact}></h1>
-                </div> 
-               
+                </div>
+
                 <div className='project2-container'>
-  <div className='heee'>
-                  
+                    <div className='heee'>
+
                         <div className='container-scroll'>
 
-                            <div data-aos="flip-left"  className='container-responsive'>
+                            <div data-aos="flip-left" className='container-responsive'>
 
                                 <div className='card-project'>
                                     <div className='container-card'>
-                                        <a href="https://resilient-sawine-5bd33c.netlify.app/"  target='_blank'>
+                                        <a href="https://resilient-sawine-5bd33c.netlify.app/" target='_blank'>
                                             <figure>
                                                 <img src={ecommerce} className='card-imges' alt="" />
                                                 <figcaption className='back'>
                                                     <h1>Ecommerce</h1>
                                                     <hr />
-                                                    <p>Cuenta con una pantalla de carga, un buscador de productos y la funcionalidad de agregar productos al carrito</p>
+                                                    <p>
+                                                        Features a loading screen, a product finder, and add-to-cart functionality
+                                                    </p>
                                                 </figcaption>
                                             </figure>
                                         </a>
@@ -51,7 +53,8 @@ const Projects = () => {
                                                     <h1>Weather App</h1>
                                                     <hr />
                                                     <p>
-                                                        Es una app que nos permite saber el estado del clima de cualquier lugar en que te encuentres</p>
+                                                        This is an application that allows us to know the weather wherever you are
+                                                    </p>
                                                 </figcaption>
                                             </figure>
                                         </a>
@@ -67,7 +70,7 @@ const Projects = () => {
                                                     <h1>Phrases</h1>
                                                     <hr />
                                                     <p>
-                                                        Este proyecto fue uno de los primeros que desarrolle con React, consiste en que puedes ver diferentes frases y dependiendo de la frase puede cambiar el color
+                                                        This project was one of the first to develop with React, you can see different sentences and depending on the sentence the color can change
                                                     </p>
                                                 </figcaption>
                                             </figure>
@@ -84,7 +87,7 @@ const Projects = () => {
                                                     <h1>Rick and Morty</h1>
                                                     <hr />
                                                     <p>
-                                                        Es una wikipedia que nos ayuda a buscar por medio del ID y ver los diferentes personajes de la serie
+                                                        It is a wikipedia that helps us search through the ID and see the different characters in the series
                                                     </p>
                                                 </figcaption>
                                             </figure>
@@ -101,7 +104,7 @@ const Projects = () => {
                                                     <h1>Portafolio</h1>
                                                     <hr />
                                                     <p>
-                                                        Este portafolio fue diseñado unicamente con HTML y CSS, es un modelo o ejemplo de que debe tener un portafolio
+                                                        This portfolio was designed only with HTML and CSS, it is a model or example of what a portfolio should have
                                                     </p>
                                                 </figcaption>
                                             </figure>
@@ -118,8 +121,8 @@ const Projects = () => {
                                                     <h1>PokéDex</h1>
                                                     <hr />
                                                     <p>
-                                                        Nos permite buscar los diferentes pokemones ya sea por ID o por el nombre y esto nos lleva a una sección
-                                                        donde encontramos más detalles de cada pokemon
+                                                        It allows us to search for the different pokemons either by ID or by name and this leads us to a section where
+                                                        we find more details about each pokemon
                                                     </p>
                                                 </figcaption>
                                             </figure>

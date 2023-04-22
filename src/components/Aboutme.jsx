@@ -27,19 +27,19 @@ const Aboutme = () => {
 
                                 <span className='aboutmeh1'>
                                     <button onClick={skill} className='btn-skill'></button>
-                                    Desarrolladora Full Stack,
+                                    Full Stack Developer,
                                 </span>
-                            
-                                La programación es uno de los aspectos de mi vida que más me gusta ya que me permite aprender algo nuevo cada día, siempre trato de aprender algo nuevo y así poder crecer tanto en lo profesional como en lo personal
-                                <p className='container-infoabout'> <span className='info-about'> <i className="fa-solid fa-phone fa-lg"></i>  +593 992444232 </span></p>
-                                <p className='container-infoabout'><span className='info-about'> <i className="fa-solid fa-location-dot fa-lg"></i>  Ecuador </span></p>
-                                <p className='container-infoabout'><span className='info-about'> <i className="fa-solid fa-envelope fa-lg"></i> martinezgilersunny@gmail.com </span></p>
-                                <p className='container-infoabout'> <span className='info-about'> <i className="fa-solid fa-language fa-lg"></i> English B1, Español</span></p>
-                              
+
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptate quos corporis, dolorem aliquam alias, reiciendis quo ipsam adipisci nam odit sint sit quod velit culpa praesentium numquam officiis omnis.
+                                <p className='container-infoabout'> <span className='info-about'> <i className="fa-solid fa-phone fa-sm"></i>  +593 992444232 </span></p>
+                                <p className='container-infoabout'><span className='info-about'> <i className="fa-solid fa-location-dot fa-lg"></i> Ecuador</span></p>
+                                <p className='container-infoabout'><span className='info-about'> <i className="fa-solid fa-envelope fa-sm"></i> martinezgilersunny@gmail.com </span></p>
+                                <p className='container-infoabout'> <span className='info-about'> <i className="fa-solid fa-language fa-sm"></i> English B1, Spanish</span></p>
+
                                 {' '}
-                                
+
                             </div>
-  <br />
+                            <br />
                         </div>
                         <div data-aos="flip-left" className='foto-about'>
                             <img src={sunny} className='foto' alt="" />
