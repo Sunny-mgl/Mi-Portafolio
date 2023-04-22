@@ -23,9 +23,9 @@ const Projects = () => {
                 <div className='project2-container'>
                     <div className='heee'>
 
-                        <div className='container-scroll'>
+                        <div data-aos="flip-left" className='container-scroll'>
 
-                            <div data-aos="flip-left" className='container-responsive'>
+                            <div  className='container-responsive'>
 
                                 <div className='card-project'>
                                     <div className='container-card'>
