@@ -625,7 +625,7 @@ section[id] {
 
 
 .container-scroll {
-  background-color: #DCB0FF;
+  background-color: #dbb0ff71;
   width: 90%;
   margin: auto;
   height: 65vh;
@@ -635,21 +635,13 @@ section[id] {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
-.container-responsive {
-  display: grid;
-  flex-direction: row;
-
-}
-
-
 .card-imges {
   width: 40%;
   height: 30vh;
 }
 
 .card-project {
-  padding: 1rem;
+
   margin-top: 1rem;
 }
 
@@ -1069,7 +1061,7 @@ textarea {
     display: grid;
     grid-template-columns: 25% 25% 25%;
     margin-right: -30rem;
-    margin-top: -4rem;
+    margin-top: -2rem;
     margin-left: -1rem;
     padding: .6rem;
   }
